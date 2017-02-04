@@ -25,4 +25,15 @@ class MoviesLibraryVCTests: XCTestCase {
   func testViewController_TableViewShouldNotBeNil(){
     XCTAssertNotNil(sut.tableView)
   }
+  // test tableview datasource link
+  func testViewController_TableViewDataSourceShouldNotBeNil(){
+    XCTAssertNotNil(sut.tableView.dataSource)
+    XCTAssertTrue(sut.tableView.dataSource is MovieLibraryDataService)
+  }
+  // test tableview delegate link
+  func testViewController_TableViewDelegateShouldNotBeNil(){
+    XCTAssertNotNil(sut.tableView.delegate)
+    XCTAssertTrue(sut.tableView.dataSource is MovieLibraryDataService)
+  }
+
 }

@@ -15,6 +15,8 @@
 		0E4719891E3E0D7A00119AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4719871E3E0D7A00119AA2 /* LaunchScreen.storyboard */; };
 		0E720B951E3F59EC00511277 /* MovieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E720B941E3F59EC00511277 /* MovieManagerTests.swift */; };
 		0E720B971E3F5B7400511277 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E720B961E3F5B7400511277 /* MovieManager.swift */; };
+		0E9A82DA1E465D6A003A8E62 /* MovieLibraryDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A82D91E465D6A003A8E62 /* MovieLibraryDataService.swift */; };
+		0E9A82DC1E466266003A8E62 /* MovieLibraryDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A82DB1E466266003A8E62 /* MovieLibraryDataServiceTests.swift */; };
 		0EB38F421E3E1AE000E16743 /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB38F411E3E1AE000E16743 /* DropShadowView.swift */; };
 		0EB38F441E3E666800E16743 /* MoviesStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB38F431E3E666800E16743 /* MoviesStructTests.swift */; };
 		0EB38F461E3E6C4400E16743 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB38F451E3E6C4400E16743 /* Movie.swift */; };
@@ -44,6 +46,8 @@
 		0E4719951E3E0D7A00119AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E720B941E3F59EC00511277 /* MovieManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieManagerTests.swift; sourceTree = "<group>"; };
 		0E720B961E3F5B7400511277 /* MovieManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		0E9A82D91E465D6A003A8E62 /* MovieLibraryDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLibraryDataService.swift; sourceTree = "<group>"; };
+		0E9A82DB1E466266003A8E62 /* MovieLibraryDataServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieLibraryDataServiceTests.swift; sourceTree = "<group>"; };
 		0EB38F411E3E1AE000E16743 /* DropShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
 		0EB38F431E3E666800E16743 /* MoviesStructTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesStructTests.swift; sourceTree = "<group>"; };
 		0EB38F451E3E6C4400E16743 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 				0E720B941E3F59EC00511277 /* MovieManagerTests.swift */,
 				0E4719951E3E0D7A00119AA2 /* Info.plist */,
 				0E0A3D2B1E43C19B0095E583 /* MoviesLibraryVCTests.swift */,
+				0E9A82DB1E466266003A8E62 /* MovieLibraryDataServiceTests.swift */,
 			);
 			path = TestUnitTests;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			children = (
 				0EB38F411E3E1AE000E16743 /* DropShadowView.swift */,
 				0E4719801E3E0D7A00119AA2 /* ViewController.swift */,
+				0E9A82D91E465D6A003A8E62 /* MovieLibraryDataService.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 			files = (
 				0EB38F421E3E1AE000E16743 /* DropShadowView.swift in Sources */,
 				0E4719811E3E0D7A00119AA2 /* ViewController.swift in Sources */,
+				0E9A82DA1E465D6A003A8E62 /* MovieLibraryDataService.swift in Sources */,
 				0E720B971E3F5B7400511277 /* MovieManager.swift in Sources */,
 				0EB38F461E3E6C4400E16743 /* Movie.swift in Sources */,
 				0E47197F1E3E0D7A00119AA2 /* AppDelegate.swift in Sources */,
@@ -319,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E9A82DC1E466266003A8E62 /* MovieLibraryDataServiceTests.swift in Sources */,
 				0E0A3D2C1E43C19B0095E583 /* MoviesLibraryVCTests.swift in Sources */,
 				0E720B951E3F59EC00511277 /* MovieManagerTests.swift in Sources */,
 				0EB38F441E3E666800E16743 /* MoviesStructTests.swift in Sources */,

@@ -33,7 +33,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="275" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qyg-bH-YfN" id="wWS-Pg-wYd">
-                                                    <rect key="frame" x="0.0" y="0.0" width="275" height="43"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="275" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
@@ -78,10 +78,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dataService" destination="VXT-eq-bru" id="5rh-Md-KUu"/>
                         <outlet property="tableView" destination="eeB-N2-dS1" id="hoR-PM-4bY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="VXT-eq-bru" userLabel="MovieLibraryDataService" customClass="MovieLibraryDataService" customModule="TestUnit" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="120.98950524737631"/>
         </scene>
